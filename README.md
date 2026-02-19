@@ -1,6 +1,10 @@
 #  Fake Job Posting Detector
-
 A Machine Learning–based application that classifies job postings as **Real**, **Fake**, or **Uncertain** using Natural Language Processing (NLP).
+
+# Live App:
+https://fakejobdetectorproject.streamlit.app/
+# GitHub Repository:
+https://github.com/Madhumitha-Anand/FakeJobDetector
 
 ##  Overview
 This project analyzes job description text to identify potentially fraudulent postings. It addresses real-world ML challenges such as **class imbalance** and **prediction uncertainty**, and presents results through an easy-to-use web interface.
@@ -19,3 +23,4 @@ Python, Scikit-learn, Pandas, NumPy, Streamlit
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
